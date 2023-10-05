@@ -1,0 +1,26 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+	align-content: center;
+}
+
+@keyframes loader{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+   transform: rotate(360deg);
+  }
+}
+
+div{
+  height: 100px;
+  width: 100px;
+  border:10px solid white;
+  border-radius: 50%;
+  border-left: 10px dotted white;
+  border-bottom: 10px dotted white;
+  animation: loader 1.5s linear 1s infinite normal;
+}
